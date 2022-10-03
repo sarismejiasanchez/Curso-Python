@@ -16,7 +16,7 @@ def run():
     super_dict = {
         "natural_nums": [1, 2, 3, 4, 5],
         "integer_nums": [-1, -2, 0, 1, 2],
-        "floating_nums": [1.1, 4.5, 6.43]
+        "floating_nums": [1.1, 4.5, 6.42]
     }
 
     #permite recorrer las llaves y valores de un diccionario en un ciclo
