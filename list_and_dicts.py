@@ -9,7 +9,7 @@ def run():
         {"firtname": "Miguel", "lastname": "Torres"},
         {"firtname": "Pepe", "lastname": "Rodelo"},
         {"firtname": "Susana", "lastname": "Martinez"},
-        {"firtname": "Jose", "lastname": "Garcia"}
+        {"firtname": "Jose", "lastname": "Jose"}
     ]
 
     #diccionario de listas
