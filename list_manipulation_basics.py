@@ -56,34 +56,34 @@ mix.append(["a", "b"])
 print(mix)
 
 # Add item to specific position
-mix.insert(1, "dos")
+mix.insert(3, ["a", "b"])
 print(mix)
 
 # Search for an item in the list
-print(mix.index(False))
+print(mix.index(["a", "b"])) # 3, this item is at multiple positions, but returns the first one
 
 # Find the maximum and minimum values in a list
 numbers = [1.5, 2, 100, 90, 45, 3]
 print(numbers)
-print("Mayor: ", max(numbers))
-print("Menor: ", min(numbers))
+print(f"Max: {max(numbers)}")   # Max: 100
+print(f"Min: {min(numbers)}")   # Min: 1.5
 
 # Delete an item from the list
 numbers.remove(1.5)
 print(numbers)
 
-# Eliminar último elemento de la lista
-numbers.pop()
+# Delete the last item
+numbers.pop() # 3
 print(numbers)
 
-# Eliminar elemento por posición
-del numbers[-1]
+# Delete an item by index
+del numbers[-2] # 90
 print(numbers)
 
-# Eliminar una porción de datos
-del numbers[0: 2]
+# Delete a range of items
+del numbers[0: 2] # [2, 100]
 print(numbers)
 
-# Eliminar la lista
+# Delete the entire list
 del numbers
 #print(numbers) # NameError: name 'numbers' is not defined
